@@ -1,0 +1,6 @@
+orders    = pd.read_csv("data/orders_dataset.csv", ...)
+items     = pd.read_csv("data/order_items_dataset.csv")
+payments  = pd.read_csv("data/order_payments_dataset.csv")
+reviews   = pd.read_csv("data/order_reviews_dataset.csv")
+products  = pd.read_csv("data/products_dataset.csv")
+cat_trans = pd.read_csv("data/product_category_name_translation.csv")
